@@ -1,5 +1,6 @@
 <script>
 	import { send, receive } from "crossfade";
+	import { fade } from 'svelte/transition';
 </script>
 
 <style>
@@ -43,6 +44,90 @@
 </style>
 
 <main>
+<br /><br />
+<div transition:fade>
+	<h2>Recreate Page Transition Ghosting</h2>
+	<ul>
+		<li>Scroll all the way down the page.</li>
+		<li>Select About link from the nav header.</li>
+		<li>Select browser back - this will keep scroll position.
+			<ul><li>Ghosting of elements can be seen based off scroll offset.</li></ul>
+		</li>
+		<li>Select Browser Forward / Back to recreate.</li>
+	</ul>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 <h1>
   <span out:send="{{key: 'title'}}" in:receive="{{key: 'title'}}">INDEX PAGE</span>
 </h1>
